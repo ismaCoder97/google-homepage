@@ -1,5 +1,12 @@
-body{
+html,body{
     margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #nav{
@@ -12,15 +19,33 @@ body{
     margin-right: 20px;
 }
 
-#nav a.top_image{
+#nav a.app_image{
     width: 20px;
     height: 20px;
-    background: red;
-    border-radius: 10px;
+    background: url(/img/AppLogo.png);
+    background-size: cover;
+}
+
+#nav a.top_image{
+    width:30px;
+    height:30px;
+    background: url(/img/Isma.jpg);
+    background-size: cover;
+    border-radius:50%;
+    margin-top: -5px;
+}
+
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #middle{
-    margin-top: 200px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #logo{
@@ -30,6 +55,25 @@ body{
 #search_bar_container{
     margin-top: 20px;
     text-align: center;
+    position: relative;
+}
+
+#search_logo,#voice_logo{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search_logo{
+    left: 10px;
+    
+}
+
+#voice_logo{
+    right: 10px;
 }
 
 #search_bar{
@@ -37,8 +81,16 @@ body{
     padding-bottom: 10px;
     outline: 0;
     width: 500px;
+    padding-left: 50px;
+    padding-right: 30px;
     border-radius: 15px;
+    font-size: 17px;
+    color: gray;
     border: 1px solid lightgray;
+}
+
+#search_bar:hover{
+    box-shadow: 0 0 10px gray; 
 }
 
 #buttons{
@@ -54,5 +106,11 @@ body{
     cursor: pointer;
     border-radius: 3px;
     background: rgb(231, 231, 231);
+    border: 2px solid transparent;
+}
+
+.button:hover{
+    box-shadow: 0 0 2px 1px black;
+    border: 2px solid #eee;
 }
 
