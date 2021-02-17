@@ -18,3 +18,41 @@ body{
     background: red;
     border-radius: 10px;
 }
+
+#middle{
+    margin-top: 200px;
+}
+
+#logo{
+    text-align: center;
+}
+
+#search_bar_container{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#search_bar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    border: 1px solid lightgray;
+}
+
+#buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+}
+
