@@ -29,7 +29,7 @@ body{
 #nav a.top_image{
     width:30px;
     height:30px;
-    background: url(img/Isma.jpg);
+    background: url(https://raw.githubusercontent.com/ismaCoder97/google-homepage/gh-pages/img/Isma.jpg);
     background-size: cover;
     border-radius:50%;
     margin-top: -5px;
