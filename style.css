@@ -22,14 +22,14 @@ body{
 #nav a.app_image{
     width: 20px;
     height: 20px;
-    background: url(img/appLogo.PNG);
+    background: url(img/AppLogo.png);
     background-size: cover;
 }
 
 #nav a.top_image{
     width:30px;
     height:30px;
-    background: url(img/isma.JPG);
+    background: url(img/Isma.jpg);
     background-size: cover;
     border-radius:50%;
     margin-top: -5px;
