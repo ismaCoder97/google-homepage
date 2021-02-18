@@ -22,7 +22,8 @@ body{
 #nav a.app_image{
     width: 20px;
     height: 20px;
-    background: url(/img/AppLogo.png);
+    /*background: url(/img/AppLogo.png);*/
+    background: url("/img/AppLogo.png");
     background-size: cover;
 }
 
