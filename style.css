@@ -22,7 +22,7 @@ body{
 #nav a.app_image{
     width: 20px;
     height: 20px;
-    background: url("img/AppLogo.PNG");
+    background: url("img/AppLogo.png");
     /*background: url(https://github.com/ismaCoder97/google-homepage/blob/gh-pages/img/AppLogo.png?raw=true);*/
     background-size: cover;
 }
@@ -30,7 +30,7 @@ body{
 #nav a.top_image{
     width:30px;
     height:30px;
-    background: url(img/Isma.JPG);
+    background: url(img/Isma.jpg);
     background-size: cover;
     border-radius:50%;
     margin-top: -5px;
